@@ -78,8 +78,19 @@ bash demo/run_demo.sh eureca_2ortho     # 0 and 90 degrees
 
 The script writes `outputs/demo/<model>/luna16_27966_<N>views.nii.gz` (model,
 values in [0,1] = HU −1000…1000), an analytic FDK from all 180 views for
-comparison, and prints PSNR / SSIM against the ground truth. Under the hood it
-calls:
+comparison, and prints PSNR / SSIM against the ground truth. Expected scores on
+this case (A40 GPU, bf16):
+
+| command | views | PSNR (dB) | SSIM |
+|---|---|---|---|
+| `run_demo.sh eureca_main 20` | 20 on 211° | 27.59 | 0.849 |
+| `run_demo.sh eureca_main 100` | 100 on 211° | 28.60 | 0.869 |
+| `run_demo.sh eureca_4view` | 4 fixed | 27.53 | 0.838 |
+| `run_demo.sh eureca_2ortho` | 2 orthogonal | 26.05 | 0.811 |
+| `run_demo.sh eureca_arc90 30` | 30 on 90° | 27.86 | 0.855 |
+| `run_demo.sh eureca_arc120 30` | 30 on 120° | 28.31 | 0.860 |
+
+Under the hood it calls:
 
 ```bash
 python test_npy.py @./options/geometry/hal.ini \
