@@ -1,0 +1,59 @@
+cff-version: 1.2.0
+message: "If you use EUReCA, please cite the paper below."
+title: "EUReCA: End-to-End Unified CBCT Reconstruction Across Clinical Acquisitions"
+type: software
+repository-code: "https://github.com/Jiening666/EUReCA"
+url: "https://jiening666.github.io/cbct_recon/"
+license: Apache-2.0
+authors:
+  - family-names: Zhu
+    given-names: Jiening
+    affiliation: Memorial Sloan Kettering Cancer Center
+  - family-names: Zhang
+    given-names: Chengzhu
+  - family-names: Fan
+    given-names: Jason
+  - family-names: Kuo
+    given-names: LiCheng
+  - family-names: Cai
+    given-names: Weixing
+  - family-names: He
+    given-names: Xiuxiu
+  - family-names: Cervino
+    given-names: Laura
+  - family-names: Moran
+    given-names: Jean
+  - family-names: Li
+    given-names: Xiang
+  - family-names: Li
+    given-names: Tianfang
+  - family-names: Fu
+    given-names: Yabo
+preferred-citation:
+  type: article
+  title: "EUReCA: End-to-End Unified CBCT Reconstruction Across Clinical Acquisitions"
+  authors:
+    - family-names: Zhu
+      given-names: Jiening
+    - family-names: Zhang
+      given-names: Chengzhu
+    - family-names: Fan
+      given-names: Jason
+    - family-names: Kuo
+      given-names: LiCheng
+    - family-names: Cai
+      given-names: Weixing
+    - family-names: He
+      given-names: Xiuxiu
+    - family-names: Cervino
+      given-names: Laura
+    - family-names: Moran
+      given-names: Jean
+    - family-names: Li
+      given-names: Xiang
+    - family-names: Li
+      given-names: Tianfang
+    - family-names: Fu
+      given-names: Yabo
+  journal: "IEEE Transactions on Medical Imaging (under review)"
+  year: 2026

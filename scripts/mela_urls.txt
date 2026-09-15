@@ -1,0 +1,27 @@
+# MELA 2022 dataset — direct public download links (Zenodo, no login required)
+# Source: https://mela.grand-challenge.org/Dataset/
+#
+# Versions matched to the Dataset page: Training = v3.0, Validation = v4.0.
+# Total train+val download ~125 GB zipped.  One file per line: <name> <url>
+# Used by download_mela.sh (resumable). Lines starting with # are ignored.
+#
+# ---- Training Set Part 1  (Zenodo record 6575197, v3.0) — 260 CTs ----
+Train1.zip   https://zenodo.org/records/6575197/files/Train1.zip?download=1
+Train2.zip   https://zenodo.org/records/6575197/files/Train2.zip?download=1
+
+# ---- Training Set Part 2  (Zenodo record 6575270, v3.0) — 260 CTs ----
+Train3.zip   https://zenodo.org/records/6575270/files/Train3.zip?download=1
+Train4.zip   https://zenodo.org/records/6575270/files/Train4.zip?download=1
+
+# ---- Training Set Part 3  (Zenodo record 6575407, v3.0) — 250 CTs ----
+Train5.zip   https://zenodo.org/records/6575407/files/Train5.zip?download=1
+Train6.zip   https://zenodo.org/records/6575407/files/Train6.zip?download=1
+
+# ---- Validation Set + Annotations  (Zenodo record 6597131, v4.0) — 110 CTs ----
+Val.zip                      https://zenodo.org/records/6597131/files/Val.zip?download=1
+mela_train_val_annotations.csv  https://zenodo.org/records/6597131/files/mela_train_val_annotations.csv?download=1
+mela_origin_spacing.csv         https://zenodo.org/records/6597131/files/mela_origin_spacing.csv?download=1
+
+# ---- Test Set  (Zenodo record 6767682, v1.0) — 220 CTs (NO annotations) ----
+Test1.zip   https://zenodo.org/records/6767682/files/Test1.zip?download=1
+Test2.zip   https://zenodo.org/records/6767682/files/Test2.zip?download=1

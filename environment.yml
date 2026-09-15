@@ -1,0 +1,29 @@
+name: eureca
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pytorch>=2.5
+  - torchvision
+  - pytorch-cuda=12.4
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - scikit-image
+  - numba
+  - h5py
+  - pillow
+  - matplotlib
+  - pip
+  - pip:
+      - nibabel
+      - opencv-python-headless
+      - timm>=1.0
+      - safetensors
+      - huggingface_hub
+      - accelerate>=1.0
+      - pytorch_msssim
+      - wandb

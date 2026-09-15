@@ -1,0 +1,24 @@
+# EUReCA — tested with Python 3.11 and PyTorch 2.5–2.12 (CUDA builds) on Linux.
+# Install PyTorch first from https://pytorch.org for your CUDA version, then:
+#   pip install -r requirements.txt
+torch>=2.5
+torchvision
+numpy
+scipy
+nibabel
+pandas
+scikit-learn
+scikit-image
+opencv-python-headless
+pillow
+h5py
+timm>=1.0
+safetensors
+huggingface_hub
+accelerate>=1.0
+pytorch_msssim
+numba          # CUDA DRR renderer, used only for training-data generation
+matplotlib
+wandb          # optional: training logging (--use_wandb)
+# optional, real-data cross-checks only:
+#   pip install itk-rtk

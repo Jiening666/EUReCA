@@ -1,0 +1,28 @@
+# RibFrac — Rib Fracture Detection/Segmentation/Classification benchmark
+# Public on Zenodo (no login, CC BY-NC 4.0). 660 chest-abdomen CTs in nii.gz.
+# One file per line: <name> <url>.  Used by download_urls.sh.  ~78 GB zipped.
+#
+#   Train Part 1 (300 CT) -> record 3893508
+#   Train Part 2 (120 CT) -> record 3893498
+#   Val/Tuning   (80 CT)  -> record 3893496
+#   Test         (160 CT, images only, NO labels) -> record 3993380
+# Note: grand-challenge.org/dataset/ page is registration-gated, but the actual
+# files it points to are these public Zenodo records.
+
+# ---- Training Set Part 1 (record 3893508) — 300 CT ----
+ribfrac-train-images-1.zip   https://zenodo.org/records/3893508/files/ribfrac-train-images-1.zip?download=1
+ribfrac-train-labels-1.zip   https://zenodo.org/records/3893508/files/ribfrac-train-labels-1.zip?download=1
+ribfrac-train-info-1.csv     https://zenodo.org/records/3893508/files/ribfrac-train-info-1.csv?download=1
+
+# ---- Training Set Part 2 (record 3893498) — 120 CT ----
+ribfrac-train-images-2.zip   https://zenodo.org/records/3893498/files/ribfrac-train-images-2.zip?download=1
+ribfrac-train-labels-2.zip   https://zenodo.org/records/3893498/files/ribfrac-train-labels-2.zip?download=1
+ribfrac-train-info-2.csv     https://zenodo.org/records/3893498/files/ribfrac-train-info-2.csv?download=1
+
+# ---- Tuning / Validation Set (record 3893496) — 80 CT ----
+ribfrac-val-images.zip       https://zenodo.org/records/3893496/files/ribfrac-val-images.zip?download=1
+ribfrac-val-labels.zip       https://zenodo.org/records/3893496/files/ribfrac-val-labels.zip?download=1
+ribfrac-val-info.csv         https://zenodo.org/records/3893496/files/ribfrac-val-info.csv?download=1
+
+# ---- Test Set (record 3993380) — 160 CT, images only (no public labels) ----
+ribfrac-test-images.zip      https://zenodo.org/records/3993380/files/ribfrac-test-images.zip?download=1

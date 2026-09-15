@@ -1,0 +1,26 @@
+# LUNA16 (LUng Nodule Analysis 2016) — direct public download links (Zenodo, no login)
+# 888 CT scans split into subset0..subset9 + annotation/candidate/segmentation files.
+# Total ~80 GB zipped.  One file per line: <name> <url>.  Used by download_urls.sh.
+#
+# Part 1/2: Zenodo record 3723295   (subset0-6, csv/aux files)
+# Part 2/2: Zenodo record 2596479   (subset7-9)
+
+# ---- CT image subsets (subset0..9) ----
+subset0.zip   https://zenodo.org/records/3723295/files/subset0.zip?download=1
+subset1.zip   https://zenodo.org/records/3723295/files/subset1.zip?download=1
+subset2.zip   https://zenodo.org/records/3723295/files/subset2.zip?download=1
+subset3.zip   https://zenodo.org/records/3723295/files/subset3.zip?download=1
+subset4.zip   https://zenodo.org/records/3723295/files/subset4.zip?download=1
+subset5.zip   https://zenodo.org/records/3723295/files/subset5.zip?download=1
+subset6.zip   https://zenodo.org/records/3723295/files/subset6.zip?download=1
+subset7.zip   https://zenodo.org/records/2596479/files/subset7.zip?download=1
+subset8.zip   https://zenodo.org/records/2596479/files/subset8.zip?download=1
+subset9.zip   https://zenodo.org/records/2596479/files/subset9.zip?download=1
+
+# ---- annotations / candidates / lung segmentations / eval (all in Part 1) ----
+annotations.csv        https://zenodo.org/records/3723295/files/annotations.csv?download=1
+candidates.csv         https://zenodo.org/records/3723295/files/candidates.csv?download=1
+candidates_V2.zip      https://zenodo.org/records/3723295/files/candidates_V2.zip?download=1
+sampleSubmission.csv   https://zenodo.org/records/3723295/files/sampleSubmission.csv?download=1
+seg-lungs-LUNA16.zip   https://zenodo.org/records/3723295/files/seg-lungs-LUNA16.zip?download=1
+evaluationScript.zip   https://zenodo.org/records/3723295/files/evaluationScript.zip?download=1

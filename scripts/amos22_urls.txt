@@ -1,0 +1,26 @@
+# AMOS22 — CT-only download list (Zenodo, no login). Used by download_urls.sh.
+# AMOS provides labeled CT+MRI plus large unlabeled CT/MRI sets. This list pulls
+# every CT file and SKIPS the MRI-only Part III (record 7295816).
+#
+#   Labeled (500 CT + 100 MRI)  -> record 7262581   (amos22.zip bundles both)
+#   Unlabeled Part I  (900 CT)  -> record 7262757
+#   Unlabeled Part II (1000 CT) -> record 7295661
+# Total ~113 GB zipped.  One file per line: <name> <url>.
+
+# ---- Labeled set (record 7262581) --------------------------------------------
+# NOTE: amos22.zip is a single archive containing BOTH CT and MRI. There is no
+# CT-only labeled download. After unzip, the CT cases are imagesTr/Va/Ts files
+# with IDs <= 0500; IDs 0501-0600 are MRI — drop those if you want pure CT.
+amos22.zip                       https://zenodo.org/records/7262581/files/amos22.zip?download=1
+labeled_data_meta_0000_0599.csv  https://zenodo.org/records/7262581/files/labeled_data_meta_0000_0599.csv?download=1
+
+# ---- Unlabeled Part I — 900 CT (record 7262757) ------------------------------
+amos22_unlabeled_ct_5000_5399.zip   https://zenodo.org/records/7262757/files/amos22_unlabeled_ct_5000_5399.zip?download=1
+amos22_unlabeled_ct_5400_5899.zip   https://zenodo.org/records/7262757/files/amos22_unlabeled_ct_5400_5899.zip?download=1
+unlabeled_data_meta_5000_5399.csv   https://zenodo.org/records/7262757/files/unlabeled_data_meta_5000_5399.csv?download=1
+unlabeled_data_meta_5400_5899.csv   https://zenodo.org/records/7262757/files/unlabeled_data_meta_5400_5899.csv?download=1
+
+# ---- Unlabeled Part II — 1000 CT (record 7295661) ----------------------------
+amos22_unlabeled_ct_5900_6199.zip   https://zenodo.org/records/7295661/files/amos22_unlabeled_ct_5900_6199.zip?download=1
+amos22_unlabeled_ct_6200_6899.zip   https://zenodo.org/records/7295661/files/amos22_unlabeled_ct_6200_6899.zip?download=1
+unlabeled_data_meta_5900_6199.csv   https://zenodo.org/records/7295661/files/unlabeled_data_meta_5900_6199.csv?download=1
