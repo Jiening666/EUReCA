@@ -4,7 +4,7 @@
 Run on the machine that holds the staged folders (see README of the release
 plan), after `hf auth login`:
 
-    python hf/upload.py --stage /data1/fuy3/release/eureca --cards hf/
+    python hf/upload.py --stage /path/to/staged/release --cards hf/
 
 Creates (if needed) the model repo jzhu35/EUReCA and the dataset repo
 jzhu35/EUReCA-demo, uploads one folder per model (safetensors + train_opt.ini +
