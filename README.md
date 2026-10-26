@@ -10,8 +10,8 @@ EUReCA is a single geometry-aware feed-forward network that reconstructs a
 cone-beam CT volume from **2 to 100 projections** acquired on a clinical linac
 (Varian Halcyon) geometry: full or partial arcs, uniform or arbitrary gantry
 angles, without view-count-specific retraining. Multiscale 2D features are
-back-projected along the exact cone-beam rays, pooled with angular-binned
-attention into a fixed-size 3D representation, and fused at every scale with a
+back-projected along the exact cone-beam rays, pooled over angular
+sectors into a fixed-size 3D representation, and fused at every scale with a
 differentiable FDK reconstruction of the same projections. The model is trained
 on digitally reconstructed radiographs (DRRs) of public CT datasets and
 validated on real Halcyon HyperSight projections.
@@ -21,6 +21,22 @@ validated on real Halcyon HyperSight projections.
 * One forward pass takes 0.3–1.3 s per volume on an A100, depending on N.
 
 <p align="center"><img src="https://jiening666.github.io/cbct_recon/static/images/fig_method_overview.png" width="90%"></p>
+
+## Interactive visualization
+
+Reconstructions can be explored in the browser, with no install, on the project
+page: **<https://jiening666.github.io/cbct_recon/>**
+
+* **Interactive volume viewer** — step through axial, coronal and sagittal
+  planes of a reconstructed volume.
+* **Qualitative comparisons** — EUReCA against the feed-forward and
+  measurement-driven baselines on the same case.
+* **Reconstruction vs. number of views** — the same patient reconstructed from
+  increasing numbers of projections.
+* **Additional acquisition trajectories** — short arcs, orthogonal pairs and
+  fixed-angle acquisitions.
+
+The page also carries the abstract, method summary and the preprint.
 
 ---
 
@@ -176,7 +192,7 @@ threeD_geometry.py            cone-beam geometry (Plücker rays, back-projection
 realdata/                     Halcyon XIM / iTools real-data pipeline
 scripts/                      dataset download / extraction, training job scripts
 freeze_model.py               snapshot code + weights + config into a self-contained bundle
-docs/MODEL_CHANGES.md         design notes on the binned aggregation and FDK fusion
+docs/MODEL_CHANGES.md         design notes on the angular pooling and FDK fusion
 ```
 
 ## Citation
