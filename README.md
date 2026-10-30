@@ -6,6 +6,8 @@
 [![Code license](https://img.shields.io/badge/code-Apache--2.0-green)](LICENSE)
 [![Weights license](https://img.shields.io/badge/weights-CC%20BY--NC%204.0-lightgrey)](WEIGHTS_LICENSE.md)
 
+**Paper:** [arXiv:2610.37740](https://arxiv.org/abs/2610.37740) &nbsp;·&nbsp; **Project page:** [jiening666.github.io/cbct_recon](https://jiening666.github.io/cbct_recon/) &nbsp;·&nbsp; **Weights:** [huggingface.co/jzhu35/EUReCA](https://huggingface.co/jzhu35/EUReCA)
+
 EUReCA is a single geometry-aware feed-forward network that reconstructs a
 cone-beam CT volume from **2 to 100 projections** acquired on a clinical linac
 (Varian Halcyon) geometry: full or partial arcs, uniform or arbitrary gantry
