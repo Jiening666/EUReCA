@@ -18,8 +18,9 @@ that reconstructs a cone-beam CT volume (256 × 256 × 128 at 2 mm) from 2 to 10
 projections on a clinical Varian Halcyon geometry: full or partial arcs, uniform
 or arbitrary gantry angles, one set of weights per acquisition regime.
 
+* **Paper:** [arXiv:2610.37740](https://arxiv.org/abs/2610.37740)
 * **Code:** https://github.com/Jiening666/EUReCA
-* **Project page / paper:** https://jiening666.github.io/cbct_recon/
+* **Project page:** https://jiening666.github.io/cbct_recon/
 * **Demo projections:** https://huggingface.co/datasets/jzhu35/EUReCA-demo
 
 ## Models
@@ -89,7 +90,7 @@ inherit the non-commercial restriction. The source code is Apache-2.0.
   title   = {EUReCA: End-to-End Unified CBCT Reconstruction Across Clinical Acquisitions},
   author  = {Zhu, Jiening and Zhang, Chengzhu and Fan, Jason and Kuo, LiCheng and Cai, Weixing
              and He, Xiuxiu and Cervino, Laura and Moran, Jean and Li, Xiang and Li, Tianfang and Fu, Yabo},
-  journal = {IEEE Transactions on Medical Imaging (under review)},
+  journal = {arXiv preprint arXiv:2610.37740},
   year    = {2026}
 }
 ```
