@@ -1,7 +1,7 @@
 # EUReCA: End-to-End Unified CBCT Reconstruction Across Clinical Acquisitions
 
 [![Project page](https://img.shields.io/badge/project-page-blue)](https://jiening666.github.io/cbct_recon/)
-[![arXiv](https://img.shields.io/badge/arXiv-2610.37740-b31b1b)](https://arxiv.org/abs/2610.37740)
+[![arXiv](https://img.shields.io/badge/arXiv-2610.37740-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.37740)
 [![Models](https://img.shields.io/badge/%F0%9F%A4%97%20weights-jzhu35%2FEUReCA-yellow)](https://huggingface.co/jzhu35/EUReCA)
 [![Code license](https://img.shields.io/badge/code-Apache--2.0-green)](LICENSE)
 [![Weights license](https://img.shields.io/badge/weights-CC%20BY--NC%204.0-lightgrey)](WEIGHTS_LICENSE.md)
